@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", Roboto, sans-serif;
+  margin: 0;
+  background: #e6e6e6;
+  color: #253238;
+}
+header {
+  background: linear-gradient(90deg, #00cc99, #034a31);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  gap: 40px;
+  margin-top: 40px;
+}
+.gallery img{
+  width: 400px;
+  height: auto;
+  border-radius: 16px;
+}
+.gallery video {
+  width: 400px;
+  border-radius: 16px;
+}
